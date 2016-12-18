@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="butonrengi">#00ACC1</color>
+    <color name="butonrengiPress">#00838F</color>
+    <color name="arkaplan">#006064</color>
+    <color name="anarenk">#006064</color>
+    <color name="gri">#37474F</color>
+    <color name="yesil">#004D40</color>
+    <color name="mor">#9b59b6</color>
+    <color name="butonrengi2">#546E7A</color>
+    <color name="butonrengi3">#00796B</color>
+</resources>

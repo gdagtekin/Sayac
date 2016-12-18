@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:title="Titreşim"
+        android:summary="Butona dokunulduğunda titreşim oluşsun mu?"
+        android:key="titresim"
+        android:summaryOn="Titreşim Açık"/>
+
+    <CheckBoxPreference
+        android:title="Ses"
+        android:summary="Butona dokunulduğunda ses efekti çalsın mı?"
+        android:key="ses"
+        android:summaryOn="Ses Açık"/>
+
+    <ListPreference
+        android:entries="@array/renkler"
+        android:entryValues="@array/renk_pozisyonu"
+        android:key="arkaplan"
+        android:title="Arkaplan"
+        android:summary="Arkaplan rengi seçiniz."/>
+    <Preference
+        android:summary="GÖKHAN DAĞTEKİN"></Preference>
+
+
+</PreferenceScreen>

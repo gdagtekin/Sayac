@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Sayaç</string>
+
+    <string-array name="renkler">
+        <item>Cyan</item>
+        <item>Blue Gray</item>
+        <item>Teal</item>
+
+    </string-array>
+    <string-array name="renk_pozisyonu">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+
+    </string-array>
+
+    <string name="reklam_kimligi">ca-app-pub-4618529397809791/5814085666</string>
+</resources>

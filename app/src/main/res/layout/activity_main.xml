@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rl"
+    android:background="@color/anarenk"
+    tools:context="com.gd.sayac.MainActivity">
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:text="0"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:id="@+id/button"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/buton_selector" />
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            style="@style/butonTasarim"
+            android:id="@+id/sifirla"
+            android:layout_width="34dp"
+            android:background="@drawable/reset"
+            android:layout_weight="0.003" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1" />
+
+        <Button
+            style="@style/butonTasarim"
+            android:background="@drawable/ayarlar"
+            android:id="@+id/ayar"
+            android:layout_width="33dp"
+            android:layout_weight="0.003" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/reklam"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"></LinearLayout>
+
+</RelativeLayout>
